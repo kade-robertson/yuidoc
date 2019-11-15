@@ -1,12 +1,16 @@
 {
-  "name": "yuidocjs",
+  "name": "yuidocjs-mod",
   "version": "0.10.3",
   "description": "YUIDoc, YUI's JavaScript Documentation engine.",
-  "author": "Dav Glass <davglass@gmail.com>",
+  "author": "Kade Robertson <kade@kaderobertson.dev>",
   "bugs": {
-    "url": "http://github.com/yui/yuidoc/issues"
+    "url": "http://github.com/kade-robertson/yuidoc/issues"
   },
   "contributors": [
+    {
+      "name": "Dav Glass",
+      "email": "davglass@gmail.com"
+    },
     {
       "name": "Adam Moore",
       "email": "amoore@gmail.com"
@@ -89,11 +93,11 @@
     "pretest": "eslint lib/*.js tests/*.js",
     "test": "istanbul cover --print=both --yui ytestrunner -- --include ./tests/options.js --include ./tests/builder.js --include ./tests/parser.js --include ./tests/parser_coffee.js --include ./tests/files.js --include ./tests/utils.js --include ./tests/preprocessor.js"
   },
-  "preferGlobal": "true",
+  "preferGlobal": true,
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "http://github.com/yui/yuidoc.git"
+    "url": "http://github.com/kade-robertson/yuidoc.git"
   },
   "yuidoc": {
     "name": "YUIDoc",
